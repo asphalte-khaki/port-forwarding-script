@@ -5,37 +5,37 @@
 
 ---
 
-## توضیحات کلی
+## Overview
 
-Ultimate IP Forwarder یک اسکریپت Bash حرفه‌ای برای **فورواردینگ چندپروتکلی** (TCP, UDP, TCP over UDP) روی سیستم‌عامل‌های اوبونتو 20.04 و بالاتر است.  
-این اسکریپت از IPv4، IPv6 و دامنه پشتیبانی کرده و مدیریت آن از طریق منوی تعاملی کاملاً ساده انجام می‌شود.
-
----
-
-## ویژگی‌ها
-
-- پشتیبانی از TCP، UDP و TCP over UDP  
-- فورواردینگ چند پورتی همزمان با استفاده از systemd  
-- پشتیبانی کامل IPv4، IPv6 و دامنه‌ها  
-- بهینه‌سازی تنظیمات سیستم برای فورواردینگ  
-- منوی کاربری تعاملی و آسان  
-- فعال‌سازی خودکار قوانین بعد از بوت سیستم  
-- حذف یا غیرفعال کردن قوانین به راحتی  
-- بدون نیاز به تغییر کد و نصب سریع
+**Ultimate IP Forwarder** is a powerful and interactive Bash script for forwarding **TCP**, **UDP**, and **TCP over UDP** traffic on **Ubuntu 20.04/22.04+** systems.  
+It supports **IPv4**, **IPv6**, and **domains** and is designed to run permanently using `systemd` services — with no manual configuration required.
 
 ---
 
-## پیش‌نیازها
+## Features
 
-- Ubuntu 20.04 یا جدیدتر  
-- دسترسی root یا sudo  
-- اتصال اینترنت برای نصب وابستگی‌ها
+- Support for `TCP`, `UDP`, and `TCP over UDP`
+- Multi-port forwarding with persistent `systemd` services
+- IPv4, IPv6, and domain/subdomain support
+- Fully interactive command-line menu UI
+- One-click optimization of Linux sysctl forwarding settings
+- Auto-start on reboot (persistent services)
+- View, remove, or fully uninstall individual or all rules
+- Fast installation with no code editing required
 
 ---
 
-## نصب سریع
+## Requirements
 
-برای نصب و اجرای سریع اسکریپت کافی است در ترمینال سرور خود دستور زیر را اجرا کنید:
+- Ubuntu 20.04 or newer  
+- Root or sudo access  
+- Internet connection (for installing dependencies)
+
+---
+
+## Quick Installation
+
+To install and launch the script instantly, run the following command in your terminal:
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/asphalte-khaki/port-forwarding-script/main/forwarder.sh)
