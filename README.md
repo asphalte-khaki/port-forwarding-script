@@ -38,4 +38,4 @@ Ultimate IP Forwarder یک اسکریپت Bash حرفه‌ای برای **فور
 برای نصب و اجرای سریع اسکریپت کافی است در ترمینال سرور خود دستور زیر را اجرا کنید:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/asphalte-khaki/port-forwarding-script/main/ultimate_ip_forwarder.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/asphalte-khaki/port-forwarding-script/main/forwarder.sh)
