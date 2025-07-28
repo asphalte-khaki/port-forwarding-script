@@ -9,10 +9,10 @@ fi
 echo $'\e[35m'"  ___|              |        _ _|  _ \   /    
  |      _ \    __|  __|        |  |   |  _ \  
  |   | (   | \__ \  |          |  ___/  (   | 
-\____|\___/  ____/ \__|      ___|_|    \___/  
+\____|\___/  ____/ \__|      ___|_|    \___/
                                               "$'\e[0m'
 
-echo -e "\e[36mCreated By Masoud Gb Special Thanks Hamid Router\e[0m"
+echo -e "\e[36update to 2025\e[0m"
 echo $'\e[35m'"Gost Ip6 Script v2.2.0"$'\e[0m'
 
 options=($'\e[36m1. \e[0mGost Tunnel By IP4'
