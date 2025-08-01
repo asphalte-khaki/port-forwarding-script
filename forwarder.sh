@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Check if the user has root access
 if [ "$EUID" -ne 0 ]; then
   echo $'\e[32mPlease run with root privileges.\e[0m'
@@ -11,7 +10,6 @@ echo $'\e[35m'"  ___|              |        _ _|  _ \   /
  |   | (   | \__ \  |          |  ___/  (   | 
 \____|\___/  ____/ \__|      ___|_|    \___/
                                               "$'\e[0m'
-
 echo -e "\e[36update to 2025\e[0m"
 echo $'\e[35m'"Gost Ip6 Script v2.2.0"$'\e[0m'
 
